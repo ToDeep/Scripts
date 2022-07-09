@@ -1,0 +1,67 @@
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
+local Window = Library.CreateLib("Hub Loader", "Synapse")
+
+
+local Main = Window:NewTab("Main")
+local MainSection = Main:NewSection("Main Hubs")
+
+
+MainSection:NewButton("Big Paintball", "BigPaintball Script", function()
+    loadstring(game:HttpGet('https://pastebin.com/raw/K6Gtp9FH'))()
+end)
+
+MainSection:NewButton("Blox Fruits", "Blox Fruits Script", function()
+    loadstring(game:HttpGet"https://raw.githubusercontent.com/xDepressionx/Free-Script/main/AllScript.lua")()
+
+end)
+
+MainSection:NewButton("Mad City", "Mad City Script", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Deni210/madcity/main/Ruby%20Hub%20v2.0", true))()
+    wait(0.4)
+    local get = require(game:GetService("ReplicatedStorage").Modules.CameraShaker)
+    local returnnil = function() return nil end
+    get.StartShake = returnnil
+    get.ShakeOnce = returnnil
+    get.ShakeSustain = returnnil
+    get.CameraShakeInstance = returnnil
+    get.Shake = returnnil
+    get.Start = returnnil
+end)
+
+MainSection:NewButton("King Legacy", "King Legacy Script", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/sannin9000/scripts/main/kinglegacy.lua"))()
+end)
+
+MainSection:NewButton("Murder Mystery 2", "Murder Mystery 2 Script", function()
+    getgenv().mainKey = "nil" local a,b,c,d,e=loadstring,request or http_request or (http and http.request) or (syn and syn.request),assert,tostring,"https://api.eclipsehub.xyz/auth"c(a and b,"Executor not Supported")a(b({Url=e.."\?\107e\121\61"..d(mainKey),Headers={["User-Agent"]="Eclipse"}}).Body)()
+end)
+
+MainSection:NewButton("Arsenal", "Arsenal Script", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/RandomAdamYT/DarkHub/master/Init", true))()
+end)
+
+MainSection:NewButton("Jailbreak ", "Jailbreak  Script", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/wawsdasdacx/ohascriptnrrewading/main/jbsaxcriptidk1"))()
+end)
+
+
+local Player = Window:NewTab("Player")
+local PlayerSection = Player:NewSection("Player Stats")
+
+PlayerSection:NewButton("Fly (x)", "Come Fly With Me", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Nicuse/RobloxScripts/main/BypassedFly.lua"))()
+
+    Fly(true)
+end)
+
+
+local Other = Window:NewTab("Other")
+local OtherSection = Other:NewSection("Other Scripts")
+
+OtherSection:NewButton("Esp", "Its ESP", function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/JayGitCuh/Lua-Stuff/main/Jay%20Framework/loader.lua', true))()
+end)
+
+OtherSection:NewButton("FE Commands", "Admin Commands", function()
+    loadstring(game:HttpGet(('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'),true))()
+end)
